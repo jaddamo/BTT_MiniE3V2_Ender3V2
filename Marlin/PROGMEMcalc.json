@@ -1,0 +1,55 @@
+{
+    "$_id" :
+        {
+            "1"   :
+                {
+                    "Gcode"  : "#if ENABLED(PIDTEMP)" ,
+                    "Bytes" : "700",
+                    "File" : "Configuration.h",
+                    "Line#" :
+                        [
+                            591, 592, 593
+                        ]
+                },
+            "2"  :
+                {
+                    "Gcode" : "#define PID_AUTOTUNE_MENU",
+                    "Bytes" : "250",
+                    "File" : "Configuration.h",
+                    "Line#" :
+                        [
+                            591, 592, 593
+                        ]
+                },
+            "3"   :
+                {
+                    "Gcode" : "#define FILAMENT_RUNOUT_SCRIPT "M600"",
+                    "Bytes" : "Undefined",
+                    "File" : "Configuration.h",
+                    "Line#" :
+                        [
+                            1482
+                        ]
+                },
+            "4"   :
+                {
+                    "Gcode" : "#define DISABLE_M503",
+                    "Bytes" : "2700",
+                    "File" : "Configuration.h",
+                    "Line#" :
+                        [
+                            824
+                        ]
+                },
+            "5"  :
+                {
+                    "Gcode" : "#define USE_SMALL_INFOFONT",
+                    "Bytes" : "2434 used",
+                    "File" : "Configuration_adv.h",
+                    "Line#" :
+                        [
+                            1593
+                        ]
+                }
+        }
+}
