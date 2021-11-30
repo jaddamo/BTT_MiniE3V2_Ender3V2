@@ -2059,7 +2059,7 @@
 //
 // G60/G61 Position Save and Return
 //
-#define SAVED_POSITIONS 1         // Each saved position slot costs 12 bytes
+#define SAVED_POSITIONS 3         // Each saved position slot costs 12 bytes
 
 //
 // G2/G3 Arc Support
@@ -2106,7 +2106,7 @@
 #endif
 
 // Moves (or segments) with fewer steps than this will be joined with the next move
-#define MIN_STEPS_PER_SEGMENT 6
+#define MIN_STEPS_PER_SEGMENT 5
 
 /**
  * Minimum delay before and after setting the stepper DIR (in ns)
